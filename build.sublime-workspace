@@ -1,0 +1,813 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"opt",
+				"options"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"jquery",
+				"jquery-plugin"
+			],
+			[
+				"un",
+				"unreadCount"
+			],
+			[
+				"need",
+				"needNotice＝"
+			],
+			[
+				"tr",
+				"transport"
+			],
+			[
+				"fri",
+				"friend"
+			],
+			[
+				"fr",
+				"friend"
+			],
+			[
+				"f",
+				"friend"
+			],
+			[
+				"bu",
+				"buildArg"
+			],
+			[
+				"chati",
+				"chatid"
+			],
+			[
+				"name",
+				"name"
+			],
+			[
+				"cli",
+				"client"
+			],
+			[
+				"U",
+				"USER_SHOP_MANAGE_CHATID"
+			],
+			[
+				"pr",
+				"prepend"
+			],
+			[
+				"on",
+				"onlineIds"
+			],
+			[
+				"pin",
+				"pingArr"
+			],
+			[
+				"ch",
+				"chatIds"
+			],
+			[
+				"cl",
+				"client"
+			],
+			[
+				"as",
+				"asyncRun"
+			],
+			[
+				"mo",
+				"modulePath"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"use",
+				"myUserId"
+			],
+			[
+				"men",
+				"menuTitle"
+			],
+			[
+				"gr",
+				"grunt"
+			],
+			[
+				"gru",
+				"grunt-html-convert"
+			],
+			[
+				"ov",
+				"ov	overflow: ${1:hidden};"
+			],
+			[
+				"typ",
+				"typeof"
+			],
+			[
+				"IM_",
+				"IM_STYLE_URL"
+			],
+			[
+				"seller",
+				"sellerName"
+			],
+			[
+				"orderFr",
+				"orderFriendList"
+			],
+			[
+				"ca",
+				"cacheItem"
+			],
+			[
+				"get",
+				"getCurrentFriend"
+			],
+			[
+				"hi",
+				"hideOrderInfo"
+			],
+			[
+				"mes",
+				"messageData"
+			],
+			[
+				"fli",
+				"fliterKey"
+			],
+			[
+				"fin",
+				"friendsCache"
+			],
+			[
+				"fir",
+				"friendsCache"
+			],
+			[
+				"p",
+				"parseFriend"
+			],
+			[
+				"ffe",
+				"fetchOrderInfo"
+			],
+			[
+				"g",
+				"groups"
+			],
+			[
+				"fe",
+				"fetchFriends"
+			],
+			[
+				"fet",
+				"fetchClient"
+			],
+			[
+				"mod",
+				"moduleName"
+			],
+			[
+				"html",
+				"htmlConvert"
+			],
+			[
+				"re",
+				"reverce"
+			],
+			[
+				"car",
+				"createXHR"
+			],
+			[
+				"is",
+				"isDeep"
+			],
+			[
+				"clo",
+				"cloneObj"
+			],
+			[
+				"clone",
+				"cloneObjType"
+			],
+			[
+				"pro",
+				"prototype"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"text",
+				"text-align"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fj",
+				"Format: Javascript"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"seth",
+				"Set Syntax: HTML"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"pa",
+				"Package Control: Install Package"
+			],
+			[
+				"setcss",
+				"Set Syntax: CSS"
+			],
+			[
+				"F",
+				"Format: Javascript"
+			],
+			[
+				"setja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"f",
+				"Format: Javascript"
+			],
+			[
+				"pag rem",
+				"Package Control: Remove Package"
+			],
+			[
+				"pagd",
+				"Package Control: Disable Package"
+			],
+			[
+				"page dis",
+				"Package Control: Disable Package"
+			],
+			[
+				"pag d",
+				"Package Control: Disable Package"
+			],
+			[
+				"pi",
+				"Package Control: Install Package"
+			],
+			[
+				"pagin",
+				"Package Control: List Packages"
+			],
+			[
+				"pagid",
+				"Package Control: Disable Package"
+			],
+			[
+				"pagi",
+				"Package Control: Install Package"
+			],
+			[
+				"pai",
+				"Package Control: Install Package"
+			],
+			[
+				"pin",
+				"Package Control: Install Package"
+			],
+			[
+				"pag",
+				"Package Control: Install Package"
+			],
+			[
+				"pagein",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"pain",
+				"Package Control: Install Package"
+			],
+			[
+				"pagien",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 462.0
+	},
+	"console":
+	{
+		"height": 146.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = 'eb2297e1a458f27d836c04bb0cbaf282' + 'd0e7a3098092775ccb37ca9d6b2e4b7d'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/libo/work/git/grunt-offer-build",
+		"/Users/libo/work/git/grunt-offer-build/tasks"
+	],
+	"file_history":
+	[
+		"/Users/libo/work/git/grunt-offer-build/tasks/offer_build.js",
+		"/Users/libo/Desktop/头尾_测试环境/header.js",
+		"/Users/libo/Desktop/头尾备份/header.js",
+		"/Users/libo/Desktop/头尾_测试环境/footer.js",
+		"/Users/libo/work/git/grunt-offer-build/package.json",
+		"/Users/libo/work/git/grunt-offer-build/.gitignore",
+		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.view.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.model.js",
+		"/Users/libo/Desktop/英国留学-51offer免费留学.html",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/WEB-INF/apartment/apartment_index.jsp",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/WEB-INF/apartment/apartment_list.jsp",
+		"/etc/hosts",
+		"/Users/libo/51offer/code/svn/ser_template/school/mobile_new/register.jsp",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/src/global.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/src/passport.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/lib/Events.js",
+		"/Users/libo/Desktop/m.html",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/src/user.js",
+		"/Users/libo/51offer/code/svn/f2e/public/side/trunk/src/side.js",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/common/footer.jsp",
+		"/Users/libo/51offer/code/svn/f2e/public/side/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/public/side/trunk/dist/side.css",
+		"/Users/libo/51offer/code/svn/f2e/public/side/trunk/dist/.cmd/side.css",
+		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.js",
+		"/Users/libo/Desktop/replace_rule.js",
+		"/Users/libo/Downloads/apply-material/other.html",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/src/im.model.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/list/trunk/src/list.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/list/trunk/src/haveEverSeen.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/seajs/3.0.0/sea-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/placeholder/2.1.1/placeholder-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/list/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/common/global_js_css.jsp",
+		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/trunk/package.json",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/trunk/src/pc.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/trunk/src/mobile.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/src/main.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/trunk/.ftppass",
+		"/Users/libo/Desktop/header_2.js",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/common/taglibs.jsp",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/pc-debug.js",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/common/header.jsp",
+		"/Users/libo/51offer/code/svn/ser_template/apartment/apartment/apartment_index.jsp",
+		"/Users/libo/Library/Caches/Cornerstone/Store/https%3A%2F%2Flibo.l%40192.168.37.1%3A444%2Fsvn%2FHorizon/0000021705/trunk/com.horizon.web/com.horizon.web.mall.apartment/src/main/webapp/common/header.jsp",
+		"/Users/libo/Library/Caches/Cornerstone/Store/https%3A%2F%2Flibo.l%40192.168.37.1%3A444%2Fsvn%2FHorizon/0000021413/trunk/com.horizon.web/com.horizon.web.mall.apartment/src/main/webapp/common/taglibs.jsp",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/package.json",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/demo/global_header_footer.htm",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/src/im.model.js.working",
+		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/dist/im-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/src/head.js",
+		"/Users/libo/work/old_project/project/global/src/user.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/home/trunk/demo/index.html",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/details/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/list/trunk/demo/list.html",
+		"/Users/libo/work/old_project/project/global/package.json",
+		"/Users/libo/51offer/code/svn/f2e/public/upload/trunk/src/upload.js",
+		"/Users/libo/Downloads/ajaxfileupload.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/ajaxFileUpload/1.0.0/ajaxFileUpload-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/ajaxFileUpload/1.0.0/ajaxFileUpload.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/src/reset.css",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/src/global.css",
+		"/Users/libo/51offer/code/svn/f2e/public/upload/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/public/upload/trunk/package.json",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/node_modules/grunt-cmd-transport/node_modules/handlebars/lib/handlebars.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/config/pc.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/handlebars/1.3.0/handlebars-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/handlebars/1.0.11/handlebars-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/handlebars/1.0.11/handlebars.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/handlebars/1.3.0/handlebars.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/handlebars/2.0.0/handlebars.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/handlebars/1.3.0/spm_modules/handlebars/2.0.0/dist/cjs/handlebars.runtime.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/home/trunk/Gruntfile.js",
+		"/Users/libo/work/old_project/project/global/src/passport.js",
+		"/Users/libo/work/old_project/project/global/dist/passport/skin_v2.css.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/release_view/global_header_footer.htm",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/dist/main.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/lib/AV.realtime.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/src/im.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/src/im.view.js",
+		"/Users/libo/study/codeRead/underscore.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/dist/im.js",
+		"/Users/libo/Downloads/原IM脚本/admin.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/dist/global.css",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/demo/index.htm",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/package.json",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/src/tooltip.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/src/pay.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/release_view/payment_failed.html",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/src/copy.js",
+		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/package.json",
+		"/Users/libo/work/old_project/project/global/Gruntfile.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/plugin/style/1.0.2/style.js",
+		"/Users/libo/51offer/code/svn/f2e/seajs/plugin/perload/1.0.0/preload.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/src/main.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/idTabs/2.2/idTabs-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/easing/1.3/easing.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/bxslider/4.1.2/bxslider-debug.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/idTabs/2.2/idTabs.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/dist/admin.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/.ftppass",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/release_view/index.htm",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/src/test.css",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/README.md",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/. ftppass",
+		"/Users/libo/study/study.sublime-project",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/src/moduleA.js",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/site/index.htm",
+		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/home/trunk/package.json",
+		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/demo/sea-config.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/placeholder/2.1.1/placeholder.js",
+		"/Users/libo/51offer/code/svn/f2e/jquery-plugin/bxslider/4.1.2/bxslider.js",
+		"/Users/libo/51offer/code/svn/f2e/public/countdown/2.0.3/countdown.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/dialog/6.0.5/dialog.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/dialog/6.0.5/dialog-config.js",
+		"/Users/libo/Desktop/aui-artDialog-9fd667e/src/dialog.js",
+		"/Users/libo/51offer/code/svn/f2e/gallery/ dialog/6.0.5/dialog.js",
+		"/Users/libo/Desktop/aui-artDialog-9fd667e/dist/dialog.js",
+		"/Users/libo/51offer/code/svn/f2e/public/countdown/2.0.3/countdown-debug.js",
+		"/Users/libo/Desktop/aui-artDialog-9fd667e/css/ui-dialog.css",
+		"/Users/libo/51offer/code/svn/f2e/gallery/ dialog/6.0.4/dialog.js",
+		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/src/template/order_info.htm",
+		"/Users/libo/51offer/code/svn/f2e/jquery/1.8.3/jquery.js"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 95.0,
+		"where_history":
+		[
+			"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src",
+			"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/src",
+			"/Users/libo/51offer/code/svn/f2e/51offer/apartment/order/trunk/src",
+			"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/node_modules/grunt-cmd-nice/node_modules/cmd-nice/src",
+			"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/node_modules/grunt-cmd-nice/tasks",
+			"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/node_modules/grunt-cmd-nice/node_modules/cmd-nice",
+			"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/node_modules/grunt-cmd-nice"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"isshowemail",
+			".51offer.com",
+			"grunt-mbb-build",
+			"RECENT_MESSAGE_LOAD_PAGE_SIZE",
+			"log",
+			"callback",
+			"好友",
+			"createRoomId",
+			"fetchFriends",
+			"bindEvent",
+			"groups",
+			"stortFriendList",
+			"friend",
+			"roomid",
+			"qr_code",
+			"nation_name",
+			"qr_code",
+			"nation_name",
+			"qr_code",
+			"nation_name",
+			"feedback",
+			"style",
+			"createRoomid",
+			"fetchFriend",
+			"friend",
+			"callback",
+			"createRoomId",
+			"room",
+			"获得",
+			"room(",
+			"friend.roomid",
+			"friend.roomI",
+			"USER_SHOP_MANAGE_CHATID",
+			"friendsCache",
+			"friendsCache =",
+			"friendsCache = ",
+			"friendsCache",
+			"createRoomId",
+			"friend",
+			"createRoomId",
+			"addFriend",
+			"members: [friend.chatid]",
+			"createRoomId",
+			"已成为好友",
+			"API_UPDATE_ROOMID",
+			"createRoomId",
+			"addFriend",
+			"LOADed",
+			"placeholder",
+			"');\n",
+			"new.51offer.com",
+			"new.",
+			"new",
+			"mall.51offer.com",
+			"API_GET_HISTORY",
+			"API_GET_ORDERINFO",
+			"fetchOrderInfo",
+			"API_ADD_FRIEND",
+			"USER_TYPE_STUDENTS",
+			"API_ADD_FRIEND",
+			"API_UPDATE_ROOMID",
+			"API_ADD_FRIEND",
+			"log.",
+			"root_domain",
+			"${domain}",
+			"window.ctx",
+			"city",
+			"new.",
+			"say",
+			">>",
+			"clearunread",
+			"API_UPDATE_TALK_TIME",
+			">>>",
+			"<<",
+			"clearUnread",
+			"unread = 0",
+			"unread",
+			"unread = 0",
+			"readyTalk",
+			"unreadCount",
+			"clearUnread",
+			"update",
+			"unread",
+			"clearunread",
+			"unread",
+			"core.trigger('unread', unreadCount)",
+			"unread",
+			"trigger('unread'",
+			"unread",
+			"open",
+			"unread = 0",
+			"needNotice＝",
+			"unread",
+			"view.close",
+			"view.open",
+			"trigger('unread'",
+			"unread",
+			"prefetch",
+			"updateTalkLastTime",
+			"define",
+			"updateLas",
+			"iframe",
+			"Handlebars",
+			"shortcutLoginHtml",
+			"']);\n",
+			" // {\n    //     pattern: 'mod/app/im/0.0.1/.*float.js',\n    //     responder: {\n    //         dir: dev_dir + 'app/im/trunk/dist/',\n    //         src: [\n    //             'im-debug.js',\n    //             'float-debug.js',\n    //         ]\n    //     }\n    // },",
+			"updateInfo",
+			"API_UPDATE_GOODS_INFO",
+			"5548b6f0e4b04402f47db504",
+			"send",
+			"function",
+			"friend",
+			"updateTalkLastTime",
+			"send(",
+			"send",
+			".send",
+			"send",
+			"updateTalkLastTime",
+			"send",
+			"sayHi",
+			"API_UPDATE_ROOMID",
+			"send(",
+			"sayHi",
+			"conv.send",
+			"createroomid",
+			"conv",
+			"has",
+			"sayHi"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 26.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "build.sublime-project",
+	"replace":
+	{
+		"height": 48.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"seajsconfig",
+				"f2e/seajs/config/pc-debug.js"
+			],
+			[
+				"global",
+				"f2e/public/global/trunk/src/global.js"
+			],
+			[
+				"testgrunt",
+				"f2e/51offer/testProject/trunk/Gruntfile.js"
+			],
+			[
+				"imgrunt",
+				"app/im/trunk/Gruntfile.js"
+			],
+			[
+				"im.js",
+				"app/im/branches/release_0.0.1/src/im.js"
+			],
+			[
+				"im.view",
+				"app/im/branches/release_0.0.1/src/im.view.js"
+			],
+			[
+				"im.m",
+				"app/im/branches/release_0.0.1/src/im.model.js"
+			],
+			[
+				"global_",
+				"public/global/trunk/demo/global_header_footer.htm"
+			],
+			[
+				"grunt",
+				"public/global/trunk/Gruntfile.js"
+			],
+			[
+				"immo",
+				"app/im/trunk/src/im.model.js"
+			],
+			[
+				"",
+				"public/global/trunk/demo/global_header_footer.htm"
+			],
+			[
+				"sea-con",
+				"51offer/testProject/trunk/demo/sea-config.js"
+			],
+			[
+				"test",
+				"~/Desktop/test.html"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/51offer/code/svn/f2e/f2e.sublime-project"
+			],
+			[
+				"im",
+				"~/51offer/code/svn/f2e/app/im/trunk/im.sublime-project"
+			],
+			[
+				"i",
+				"~/51offer/code/svn/f2e/app/im/trunk/im.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 193.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
