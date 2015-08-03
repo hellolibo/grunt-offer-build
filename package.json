@@ -39,6 +39,9 @@
     "grunt-contrib-clean": "~0.4.1",
     "grunt-text-replace": "0.3.7"
   },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
   "keywords": [
     "gruntplugin"
   ]
