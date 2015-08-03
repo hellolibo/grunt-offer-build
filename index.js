@@ -1,8 +1,8 @@
 /*
- * grunt-mbb-build
- * https://github.com/hellolibo/grunt-mbb-build
+ * grunt-offer-build
+ * https://github.com/hellolibo/grunt-offer-build
  *
- * Copyright (c) 2013 shuangzhu
+ * Copyright (c) 2014 hellolibo
  * Licensed under the MIT license.
  */
 
@@ -224,7 +224,7 @@ function distConfig(grunt, pkg) {
                 banner: '/*! <%= pkg.name %> <%= pkg.version %> pub <%= grunt.template.today("yyyy-mm-dd HH:MM")%> by <%= pkg.author.name %> */\n',
                 keepSpecialComments: 0
             },
-            mbb: {
+            offer: {
                 files: cssmins
             }
         },
@@ -302,7 +302,7 @@ exports.init = function(grunt) {
 
     initConfig(grunt);
 
-    grunt.registerTask("mbb-build", ["clean:dist", // delete dist direcotry
+    grunt.registerTask("offer-build", ["clean:dist", // delete dist direcotry
 
     "transport:js", // src/* -> .build/src/* 
     "replace-css", // relative path  -> absolute path
@@ -313,7 +313,7 @@ exports.init = function(grunt) {
 
     "copy:spm", // src/**/* (no spm) -> .build/dist/**/*
 
-    "cssmin:mbb", // dist/*-debug.css -> dist/*.css
+    "cssmin:offer", // dist/*-debug.css -> dist/*.css
 
     "uglify:js", // dist/*-debug.js -. dist/*.js
 

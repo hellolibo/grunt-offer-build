@@ -1,6 +1,6 @@
 {
   "name": "grunt-offer-build",
-  "description": "The best Grunt plugin ever.",
+  "description": "51offer F2E build tool",
   "version": "0.1.0",
   "homepage": "https://github.com/hellolibo/grunt-offer-build",
   "author": {
@@ -39,8 +39,7 @@
     "grunt-contrib-clean": "~0.4.1",
     "grunt-text-replace": "0.3.7"
   },
-},
-"keywords": [
-  "gruntplugin"
-]
+  "keywords": [
+    "gruntplugin"
+  ]
 }

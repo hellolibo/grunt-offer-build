@@ -227,8 +227,8 @@
 	"build_varint": "",
 	"command_palette":
 	{
-		"height": 375.0,
-		"last_filter": "",
+		"height": 159.0,
+		"last_filter": "fj",
 		"selected_items":
 		[
 			[
@@ -357,16 +357,19 @@
 	},
 	"expanded_folders":
 	[
-		"/Users/libo/work/git/grunt-offer-build",
-		"/Users/libo/work/git/grunt-offer-build/tasks"
+		"/Users/libo/work/git/grunt-offer-build"
 	],
 	"file_history":
 	[
+		"/Users/libo/work/git/grunt-offer-build/index.js",
+		"/Users/libo/work/git/grunt-offer-build/package.json",
+		"/Users/libo/work/old_project/project/global/Gruntfile.js",
+		"/Users/libo/work/git/grunt-offer-build/README.md",
+		"/Users/libo/work/git/grunt-offer-build/Gruntfile.js",
 		"/Users/libo/work/git/grunt-offer-build/tasks/offer_build.js",
 		"/Users/libo/Desktop/头尾_测试环境/header.js",
 		"/Users/libo/Desktop/头尾备份/header.js",
 		"/Users/libo/Desktop/头尾_测试环境/footer.js",
-		"/Users/libo/work/git/grunt-offer-build/package.json",
 		"/Users/libo/work/git/grunt-offer-build/.gitignore",
 		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.view.js",
 		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.model.js",
@@ -458,7 +461,6 @@
 		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/Gruntfile.js",
 		"/Users/libo/51offer/code/svn/f2e/51offer/apartment/payment/trunk/src/copy.js",
 		"/Users/libo/51offer/code/svn/f2e/public/global/trunk/package.json",
-		"/Users/libo/work/old_project/project/global/Gruntfile.js",
 		"/Users/libo/51offer/code/svn/f2e/seajs/plugin/style/1.0.2/style.js",
 		"/Users/libo/51offer/code/svn/f2e/seajs/plugin/perload/1.0.0/preload.js",
 		"/Users/libo/51offer/code/svn/f2e/51offer/testProject/trunk/src/main.js",
@@ -486,10 +488,7 @@
 		"/Users/libo/51offer/code/svn/f2e/gallery/ dialog/6.0.5/dialog.js",
 		"/Users/libo/Desktop/aui-artDialog-9fd667e/dist/dialog.js",
 		"/Users/libo/51offer/code/svn/f2e/public/countdown/2.0.3/countdown-debug.js",
-		"/Users/libo/Desktop/aui-artDialog-9fd667e/css/ui-dialog.css",
-		"/Users/libo/51offer/code/svn/f2e/gallery/ dialog/6.0.4/dialog.js",
-		"/Users/libo/51offer/code/svn/f2e/app/im/trunk/src/template/order_info.htm",
-		"/Users/libo/51offer/code/svn/f2e/jquery/1.8.3/jquery.js"
+		"/Users/libo/Desktop/aui-artDialog-9fd667e/css/ui-dialog.css"
 	],
 	"find":
 	{
@@ -514,6 +513,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mbb-build",
+			"mbb",
+			"cssmin",
 			"isshowemail",
 			".51offer.com",
 			"grunt-mbb-build",
@@ -638,10 +640,7 @@
 			"send(",
 			"sayHi",
 			"conv.send",
-			"createroomid",
-			"conv",
-			"has",
-			"sayHi"
+			"createroomid"
 		],
 		"highlight": true,
 		"in_selection": false,
