@@ -223,8 +223,16 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 1128,
+				"buffer_size": 1393,
 				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.js",
+			"settings":
+			{
+				"buffer_size": 9834,
+				"line_ending": "Windows"
 			}
 		}
 	],
@@ -369,6 +377,7 @@
 	],
 	"file_history":
 	[
+		"/Users/libo/work/git/grunt-offer-build/.gitignore",
 		"/Users/libo/work/git/grunt-offer-build/index.js",
 		"/Users/libo/work/git/grunt-offer-build/package.json",
 		"/Users/libo/work/old_project/project/global/Gruntfile.js",
@@ -378,7 +387,6 @@
 		"/Users/libo/Desktop/头尾_测试环境/header.js",
 		"/Users/libo/Desktop/头尾备份/header.js",
 		"/Users/libo/Desktop/头尾_测试环境/footer.js",
-		"/Users/libo/work/git/grunt-offer-build/.gitignore",
 		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.view.js",
 		"/Users/libo/51offer/code/svn/f2e/app/im/branches/release_0.0.1/src/im.model.js",
 		"/Users/libo/Desktop/英国留学-51offer免费留学.html",
@@ -521,6 +529,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"jsmins",
+			"uglify",
 			"mbb-build",
 			"mbb",
 			"cssmin",
@@ -646,9 +656,7 @@
 			"sayHi",
 			"API_UPDATE_ROOMID",
 			"send(",
-			"sayHi",
-			"conv.send",
-			"createroomid"
+			"sayHi"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -666,7 +674,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -675,15 +683,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1128,
+						"buffer_size": 1393,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								95,
-								95
+								175,
+								175
 							]
 						],
 						"settings":
@@ -693,7 +701,37 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 233.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "index.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 9834,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								9203,
+								9203
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 5363.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,

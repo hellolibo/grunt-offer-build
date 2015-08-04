@@ -63,7 +63,7 @@ function initCSSPicReplace(grunt, pkg) {
                         replacements.push({
                             from: url,
                             to: url.replace(/^url\(['"]?([^)'"]+)['"]?\)$/, function ($0, $1) {
-                                return 'url("http://cca.mbaobao.com/static/mod/<%=pkg.family%>/<%=pkg.name%>/<%=pkg.version%>/' + path.join(subdir ? subdir : '', $1).replace("\\", "/") + '?'+ picMD5 +'")';
+                                return 'url("http://static.51offer.com/mod/<%=pkg.family%>/<%=pkg.name%>/<%=pkg.version%>/' + path.join(subdir ? subdir : '', $1).replace("\\", "/") + '?'+ picMD5 +'")';
                             })
                         });
                     }
@@ -224,7 +224,7 @@ function distConfig(grunt, pkg) {
                 banner: '/*! <%= pkg.name %> <%= pkg.version %> pub <%= grunt.template.today("yyyy-mm-dd HH:MM")%> by <%= pkg.author.name %> */\n',
                 keepSpecialComments: 0
             },
-            mbb: {
+            offer: {
                 files: cssmins
             }
         },
@@ -314,7 +314,7 @@ exports.init = function (grunt) {
 
         "copy:spm", // src/**/* (no spm) -> .build/dist/**/*
 
-        "cssmin:mbb", // dist/*-debug.css -> dist/*.css
+        "cssmin:offer", // dist/*-debug.css -> dist/*.css
 
         "uglify:js", // dist/*-debug.js -. dist/*.js
 
