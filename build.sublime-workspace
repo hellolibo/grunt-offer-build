@@ -231,7 +231,7 @@
 			"file": "index.js",
 			"settings":
 			{
-				"buffer_size": 9834,
+				"buffer_size": 9838,
 				"line_ending": "Windows"
 			}
 		}
@@ -529,6 +529,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"mbb",
 			"jsmins",
 			"uglify",
 			"mbb-build",
@@ -655,8 +656,7 @@
 			"send",
 			"sayHi",
 			"API_UPDATE_ROOMID",
-			"send(",
-			"sayHi"
+			"send("
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -674,7 +674,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
@@ -690,8 +690,8 @@
 						"selection":
 						[
 							[
-								175,
-								175
+								95,
+								95
 							]
 						],
 						"settings":
@@ -701,10 +701,10 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 233.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -713,15 +713,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 9834,
+						"buffer_size": 9838,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								9203,
-								9203
+								9165,
+								9165
 							]
 						],
 						"settings":
@@ -734,7 +734,7 @@
 						"translation.y": 5363.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]
