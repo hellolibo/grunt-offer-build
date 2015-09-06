@@ -58,7 +58,7 @@ function initCSSPicReplace(grunt, pkg) {
                 };
                 var replacements = r.replacements;
                 matchs.forEach(function (url) {
-                    if (!/^url\(['"]?(http|https|data):/i.test(url)) {
+                    if (!/^url\(['"]?(http|https|data|about):/i.test(url)) {
                         var picMD5 = crypto.createHash('md5').update(text).digest('hex').substr(-6);
                         replacements.push({
                             from: url,
@@ -263,6 +263,7 @@ function distConfig(grunt, pkg) {
                 files: [{
                     cwd: 'src',
                     src: '**/*',
+                    expand: true,
                     filter: 'isFile',
                     dest: '.build/src'
                 }]
@@ -280,6 +281,7 @@ function distConfig(grunt, pkg) {
                     cwd: '.build/dist',
                     src: '**/*.css',
                     filter: 'isFile',
+                    expand: true,
                     dest: '.build/src'
                 }]
             },
@@ -289,6 +291,7 @@ function distConfig(grunt, pkg) {
                 },
                 files: [{
                     cwd: 'src',
+                    expand: true,
                     src: '**/*.handlebars',
                     filter: 'isFile',
                     dest: 'src/'
