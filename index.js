@@ -200,6 +200,21 @@ function distConfig(grunt, pkg) {
         }
     });
 
+    // 本地环增执行 transport:hbs 是不需要生成具名模块的
+    var clearHbsId = {'clear-hbs-id':{
+            src: 'src/*.handlebars.js',
+            overwrite: true,
+            replacements:[{
+                from: /^define\((.+)function\(/,
+                to:function(matchedWord, index, fullText, regexMatches){
+                    console.log(regexMatches)
+                    return 'define(function(';
+                }
+            }]
+
+        }
+    };
+
     return {
         concat: {
             options: {
@@ -239,7 +254,7 @@ function distConfig(grunt, pkg) {
                 files: jsmins
             }
         },
-        replace: replaceCSSPic,
+        replace: Object.assign({}, replaceCSSPic, clearHbsId),
         copy: {
             spm: {
                 files: copies
@@ -325,6 +340,6 @@ exports.init = function (grunt) {
         'newline'
     ]);
 
-    grunt.registerTask("hbs", ["transport:hbs"]);
+    grunt.registerTask("hbs", ["transport:hbs", 'clear-hbs-id']);
 
 };

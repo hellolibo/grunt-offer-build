@@ -362,8 +362,8 @@
 	],
 	"file_history":
 	[
-		"/Users/libo/work/git/grunt-offer-build/package.json",
 		"/Users/libo/work/git/grunt-offer-build/index.js",
+		"/Users/libo/work/git/grunt-offer-build/package.json",
 		"/Users/libo/work/git/grunt-cmd-transport/test/transport.js",
 		"/Users/libo/work/git/grunt-offer-build/.gitignore",
 		"/Users/libo/work/old_project/project/global/Gruntfile.js",
@@ -514,6 +514,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"picMD5",
 			"\",\n",
 			"mbb",
 			"jsmins",
@@ -640,8 +641,7 @@
 			"send",
 			"updateTalkLastTime",
 			"send",
-			"sayHi",
-			"API_UPDATE_ROOMID"
+			"sayHi"
 		],
 		"highlight": true,
 		"in_selection": false,
