@@ -340,6 +340,6 @@ exports.init = function (grunt) {
         'newline'
     ]);
 
-    grunt.registerTask("hbs", ["transport:hbs", 'clear-hbs-id']);
+    grunt.registerTask("hbs", ["transport:hbs", 'replace:clear-hbs-id']);
 
 };
