@@ -58,12 +58,12 @@ function initCSSPicReplace(grunt, pkg) {
                 };
                 var replacements = r.replacements;
                 matchs.forEach(function (url) {
-                    if (!/^url\(['"]?(http|https|data|about):/i.test(url)) {
+                    if (!/^url\(['"]?(http:|https:|data:|about:|\/\/)/i.test(url)) {
                         var picMD5 = crypto.createHash('md5').update(text).digest('hex').substr(-6);
                         replacements.push({
                             from: url,
                             to: url.replace(/^url\(['"]?([^)'"]+)['"]?\)$/, function ($0, $1) {
-                                return 'url("http://static.51offer.com/mod/<%=pkg.family%>/<%=pkg.name%>/<%=pkg.version%>/' + path.join(subdir ? subdir : '', $1).replace("\\", "/") + '?'+ picMD5 +'")';
+                                return 'url("//static.51offer.com/mod/<%=pkg.family%>/<%=pkg.name%>/<%=pkg.version%>/' + path.join(subdir ? subdir : '', $1).replace("\\", "/") + '?'+ picMD5 +'")';
                             })
                         });
                     }
@@ -202,12 +202,17 @@ function distConfig(grunt, pkg) {
 
     // 本地环增执行 transport:hbs 是不需要生成具名模块的
     var clearHbsId = {'clear-hbs-id':{
-            src: 'src/*.handlebars.js',
+            files: [{
+                cwd: 'src',
+                expand: true,
+                src: '**/*.handlebars.js',
+                filter: 'isFile',
+                dest: 'src/'
+            }],
             overwrite: true,
             replacements:[{
                 from: /^define\((.+)function\(/,
                 to:function(matchedWord, index, fullText, regexMatches){
-                    console.log(regexMatches)
                     return 'define(function(';
                 }
             }]
