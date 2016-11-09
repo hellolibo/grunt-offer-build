@@ -19,6 +19,8 @@ function initConfig(grunt) {
 
     var replaceTask = grunt.util._.map(grunt.util._.keys(config.replace), function (task) {
         return "replace:" + task;
+    }).filter(function(task){
+        return 'replace:clear-hbs-id' != task;
     });
 
     grunt.util._.merge(config, grunt.config.data);
