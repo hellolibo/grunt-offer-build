@@ -43,13 +43,13 @@
     "grunt-text-replace": "0.3.7"
   },
   "peerDependencies": {
-    "grunt": "~0.4.5"
+    "grunt": ">=0.4.0"
   },
   "keywords": [
     "gruntplugin",
     "gruntcollection"
   ],
-  "readme":"# grunt-offer-build\r\n\r\n",
+  "readme": "# grunt-offer-build\r\n\r\n",
   "readmeFilename": "README.md",
   "_id": "grunt-offer-build@0.1.5",
   "_from": "grunt-offer-build@~0.1.4"
